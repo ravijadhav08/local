@@ -1,0 +1,47 @@
+.grid1 {
+    text-align: center;
+    background: #e0e0e0;
+    background: #ffc107;
+	background:#fff;
+    padding: 25px 40px;
+    -webkit-box-shadow: 0 0 40px #aaa;
+    -moz-box-shadow: 0 0 40px #aaa;
+    box-shadow: 0 0 40px #aaa;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+	-webkit-box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 29px 0px rgba(0,0,0,0.75);
+}
+.grid1:hover {
+    background: #ffc107;
+}
+.grid1 h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 25px 0 20px;
+    color: #212121;
+}
+.grid1 p {
+    font-size: 14px;
+    letter-spacing: .5px;
+    color: #6b6b6b;
+}
+.services {
+    background-image: url(../../assets/images/b4.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.services .heading h3 ,.services .heading p{
+    color: #fff;
+}
+.services-top-grids {
+    margin-bottom: 30px;
+}
+.grid1 i.fa {
+    font-size: 40px;
+    color: #000;
+    color: #009688;
+}

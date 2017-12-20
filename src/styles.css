@@ -1,0 +1,37 @@
+.heading h3 {
+    font-size: 45px;
+	text-align:center;
+    text-transform: uppercase;
+	color: #000;
+	margin-top: 2%;
+}
+.heading p {
+    text-align: center;
+    color: #000;
+    line-height: 26px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+html, body{
+    font-size: 100%;
+	background:#ffffff;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+p,ul li,ol li{
+	margin:0;
+	font-size:14px;
+	line-height:26px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Cabin', sans-serif;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}

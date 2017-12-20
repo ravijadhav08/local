@@ -1,0 +1,59 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<div id="flipkart-navbar">
+    <div class="container">
+        <div class="row row1">
+            <ul class="largenav pull-right">
+                <li class="upper-links"><a class="links" href="#">  HelpLine : 76-7640-7640</a></li>
+                <li class="upper-links"><a class="links" href="https://play.google.com/store/apps/details?id=com.localramu.android.app">Download App</a></li>
+                <li class="upper-links"><a class="links"  (click)="loginOrOut()" >Book Now</a></li>
+                <li class="upper-links"><a class="links" href="http://clashhacks.in/">Link 4</a></li>
+         
+                <li class="upper-links dropdown"><a class="links" href="http://clashhacks.in/">Menu</a>
+                    <ul class="dropdown-menu">
+                        <li class="profile-li"><a class="profile-links" href="http://yazilife.com/">Link</a></li>
+                        <li class="profile-li"><a class="profile-links" href="http://hacksociety.tech/">Link</a></li>
+                        <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
+                        <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
+                        <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="upper-links" *ngIf="authGuard.canActivate()===false" (click)="loginOrOut()">
+                    <a class="links"><span class="glyphicon glyphicon-log-in"></span> {{ loginLogoutText }}</a>
+                </li>
+                <div class="upper-links dropdown" *ngIf="authGuard.canActivate()"  (click)="loginOrOut()">
+                    <a class="links h6 text-capitalize dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span> Hi {{loggedUser}}!</a>
+                    <i class="glyphicon glyphicon-triangle-bottom"></i>
+                                        <div class="dropdown-menu">
+                            <a class="profile-links dropdown-item" href="http://yazilife.com/">My Profile</a>
+                            <a class="profile-links dropdown-item" href="http://hacksociety.tech/">My Services</a>
+                            <a class="profile-links dropdown-item" href="http://clashhacks.in/">Track your order</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="profile-links dropdown-item" href="http://clashhacks.in/">Logout</a>
+                    </div>
+                </div> 
+                
+            </ul> 
+        </div>
+        <div class="row row2">
+            <div class="col-sm-2">
+                <h2 style="margin:0px;"><span class="smallnav menu" onclick="openNav()">☰ Brand</span></h2>
+                <h1 style="margin:-10px;"><img src="assets/images/local-ramu-logo.png" alt="logo" routerLink="home"/></h1>
+           </div>
+            <app-search></app-search>
+        </div>
+    </div>
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+    <div class="container" style="background-color: #2874f0; padding-top: 10px;">
+        <span class="sidenav-heading">Home</span>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    </div>
+    <a href="http://clashhacks.in/">Book Now</a>
+    <a href="http://clashhacks.in/">Link</a>
+    <a href="http://clashhacks.in/">Link</a>
+    <a href="http://clashhacks.in/">Link</a>
+</div>

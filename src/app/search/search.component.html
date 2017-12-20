@@ -1,0 +1,14 @@
+<div class="flipkart-navbar-search smallsearch col-sm-8 col-xs-11">
+    <div class="row">
+        <input class="flipkart-navbar-input col-xs-11" [(ngModel)]="locationAddress"
+         type="text" placeholder="Type Location Name  Services to Be Provided  (Area , Landmark )" name="" (setAddress)="getAddress($event)" googleplace >
+        <button class="flipkart-navbar-button col-xs-1" (click)="setLocation()" >
+            <i class="glyphicon glyphicon-screenshot"></i>
+            Locate Me
+        </button>
+    </div>
+</div>
+<div class="cart largenav col-sm-2">
+    <a class="cart-button" routerLink="services">
+        Search</a>
+</div>

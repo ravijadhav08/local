@@ -1,0 +1,121 @@
+/* about */
+.mail-grid1,.agents,div#about,.banner-dott,.customer,.faq,.portfolio-agileinfo {
+    padding: 60px 0;
+}
+.text-center h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.about-top {
+    margin-bottom: 40px;
+    
+}
+.text p {
+    letter-spacing: .5px;
+    color: #565656;
+}
+.about .grid {
+    text-align: center;
+    padding: 0 40px;
+    
+}
+.about .grid i.fa {
+    font-size: 50px;
+    color: #d0d0d0;
+    color: #FF9800;
+    margin-bottom: 20px;
+}
+.about i.fa.fa-pencil, .services i.fa.fa-pencil {
+    color: #E91E63;
+}
+.about i.fa.fa-book, .services i.fa.fa-book {
+    color: #2196F3;
+}
+.about i.fa.fa-flask, .services i.fa.fa-flask {
+    color: #2d9e32;
+}
+.about .grid h3{
+    font-size: 17px;
+    color: #999;
+    color: #1f6282;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.about-head h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #000;
+}
+.bottomgridtext h3 {
+    color: #fff;
+    margin: 50px 0 20px 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 25px;
+}
+.bottomgridtext p {
+    color: #000;
+    line-height: 26px;
+    font-size: 14px;
+    letter-spacing: .5px;
+	font-weight:100;
+    margin-top: 25px;
+}
+.bottomgridtext{
+    padding-left: 40px;
+    padding-right: 100px;
+    background: #009688;
+    padding-bottom: 81px;
+    padding-top: 20px;
+}
+.about-bottom-grid {
+    margin-top: 70px;
+}
+.readmore-w3 a {
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 0px;
+    margin: 2.5em 0 0;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: 'Poppins', sans-serif;
+}
+.readmore-w3 i.fa.fa-long-arrow-right {
+    padding-left: 15px;
+}
+.bottomgridimg {
+    padding: 0;
+}
+.bottomleft {
+    padding-left: 60px;
+    padding-right: 50px;
+    background: #FFC107;
+    padding-bottom: 160px;
+    padding-top: 44px;
+}
+.about span {
+    background: #fff;
+    display: block;
+    width: 30%;
+    height: 2px;
+}
+/* //about */
+
+.rcorners {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 250px;
+    height: 250px;
+	margin-bottom:20%;
+    text-align: center;	
+    margin-left: 15%;
+}

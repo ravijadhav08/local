@@ -1,0 +1,98 @@
+/*-- faq --*/
+.about-w3layouts-pic{
+
+    background-size: cover;
+}
+.about-right h5 {
+    font-size: 1.5em;
+    color: #000;
+    margin: 0;
+}
+.about-right p {
+    text-align: left;
+    margin: 1em 0 0 0;
+    color: #999999;
+    line-height: 1.8em;
+}
+.faq .heading h3 {
+    font-size: 45px;
+	text-align:left;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*-- panel-accordion --*/
+.w3ls-about h3.title-agile {
+    margin-bottom: 0.8em;
+}
+.faq {
+    background: url(../../assets/images/banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.faq .panel-group {
+    margin: 0em 0 0;
+}
+.faq .panel-heading {
+    padding: 20px 0 20px 25px;
+}
+.panel-body {
+    padding: 15px 65px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: .5px;
+    color: #565656;
+}
+.panel-group .panel {
+    border-radius: 0;
+}
+.panel-group .panel + .panel {
+    margin-top: 0;
+    border-bottom: 1px solid #c5c5c5;
+}
+.panel-group .panel + .panel:nth-child(2) {
+    border-top: 1px solid #c5c5c5;
+}
+.faq .panel-default span.glyphicon {
+    color: #FFC107;
+    margin-right: 1em;
+}
+.faq .panel-title {
+	font-size: 1.2em;
+    color: #000000;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.faq .panel-title:hover{
+	text-decoration: none;
+}
+.faq a.pa_italic:focus {
+    text-decoration: none;
+}
+.faq .panel-default {
+    border-color: #FFF;
+}
+.faq .panel-default > .panel-heading {
+    border-color: #FFF;
+	color:#212121;
+    background-color: #fff;
+}
+.faq.panel-body {
+    padding: 1em 1em 0.5em;
+    color: #999999;
+    font-size: .9em;
+    line-height: 1.8em;
+    margin: 0;
+    border: none !important;
+}
+.faq a.pa_italic label {
+    cursor: pointer;
+	font-weight:500;
+}
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+    color: #009688;
+}
+/*-- //faq --*/

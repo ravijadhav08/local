@@ -1,0 +1,35 @@
+.search
+{
+    outline: none;
+    /*border: none;*/
+}
+
+.no-border{
+    outline:none;
+    border:none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border: none;
+}
+
+.show-services {
+    width: 200px;
+    height: 54px;
+    background-color: #fc8019;
+    padding: 20px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 0 3px 3px 0;
+    border: 0;
+    outline: 0;
+    cursor: pointer
+}
+
+
+
+
